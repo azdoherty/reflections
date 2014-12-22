@@ -31,3 +31,6 @@ Reflection: How do I want to use git?
 Git history is stored in .git folder within the repository folder. (ls -a from git bash command line)
 
 Initializing a repository creates the log and the .git folder, but adds no commits.
+
+Adding changes to a repository:
+	-move files to the staging area, then commit them to reduce # of commits in initialization.
