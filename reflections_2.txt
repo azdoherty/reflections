@@ -1,0 +1,36 @@
+#GIT Course reflections and notes
+
+GIT Commands:
+Diff and Commit, Commit puts in a file, Diff compares two commits
+
+Manual commit: Will always be a at a point where a thought is finished, but could sometimes skip important sections
+or be excessively large. 
+
+Repository: saves a version of every file. Multi file commits are good because you can store files that
+go together logically. However people may be tempted to use them to just store everything, which is not the point.
+
+Cloning a repository: this is what I want to do! 
+	-press q to quit git log (arrow/enter to 
+	-commits are parts of repositories (commit something to a repository)
+	
+Log command: view all commits and small view of changes associated with them (operates on commits).
+
+GIT checkout: similar to restoring a previous version (does all files)
+	-if you go back more than 1 change you need to create a new branch if you want to 
+	make lasting comparable changes
+	
+Reflection: Confidence from version control: you know you can commit prior to making changes, and always 
+recover your functioning code.
+
+Setting up git workspace:
+	C:\folder1\folder2 [(XXXXX)] > XXXXX is current commit ID. will show a stare that indicates changes have been made.
+	
+Reflection: How do I want to use git?
+	-I want to use it to store and access files that I want to be version controlled from multiple devices.
+	
+Git history is stored in .git folder within the repository folder. (ls -a from git bash command line)
+
+Initializing a repository creates the log and the .git folder, but adds no commits.
+
+Adding changes to a repository:
+	-move files to the staging area, then commit them to reduce # of commits in initialization.
