@@ -26,3 +26,11 @@ Reflect: Local copies of remote branches:
 	-The benefit of having a loast known state of the remote store locally is to be able to work offline,
 	or have multiple people working on the same files in parallel without continually committing to the same 
 	branch.
+	
+Reflect: How would you collaborate without using Git or GitHub? 
+	-Everyone would have a specific section they would need to work on, so the sharing of ideas to improve the
+	overall project would be limited. It would be good however, because merge conflicts could be avoided. It would
+	almost certainly lead to duplication of code. 
+	
+Reflect: When to use a separate branch: 
+	-When there is a paradigm shift, or a change you are unsure you want to see in the final version.
