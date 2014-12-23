@@ -1,1 +1,15 @@
 stuff
+
+Manual vs automatic pull?
+
+You may want to pull changes manually so that you aren't publishing unfinished work.
+
+Github forking: automatically fork a repository to your own account (fork is just a github only clone).
+	-It keeps track of number of people who made forks, and all link back to the original repository.
+	-git remote -v : print out info about remote repository w/ verbose info.
+	
+Reflect: Forks, Clones, and Branches:
+	Fork: A fork action clones a github repository on your github account. It only exists 
+	in github
+	Clone: A clone is created by pulling a repository from github
+	Branch: A branch is created locally only when you decide your program needs to go in a different direction
