@@ -1,0 +1,7 @@
+refelctions_3: Intro to github
+
+Syncing reflections:
+	-only do after commits we care about. 
+	-How 2 get current state onto Github (not a simple commit, and not a clone).
+	1) create empty repository on gitub
+	2) Push or pull data to remote data as groups of commits (branches)
