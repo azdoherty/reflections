@@ -2,3 +2,43 @@
 
 Staging area: It is different from both because it does not exist anywhere, and will expire when you close git.
 It offers a place to set up and review commits before applying them.
+	-add to staging area: git add <arg>
+	commit staging area: git commit
+
+git checkout master restores most recent commit as current commit.
+
+git diff compares the pwd to the staging area.
+
+git diff --staged compares staging area to repository 
+
+Reflection--Commit sizes:
+	Ensure that there is 1 logical change per commit by comparing staging area to repository before each commit.
+
+Branches: A non-linear commit history (good for an experimental feature or parallel path). 
+	-a branch is a label for a commit. the initial one is automatically called master.
+	use cmd git branch to see them, and git branch <arg> to create branch arg.
+	-git checkout <arg> checks out branch
+	-each commit knows its parent
+
+	
+Reflect: Why use branches: for large functional changes in a program.
+
+Detached head message:
+	-indicates you can make changes that do not effect any branches. 
+	-running git checkout -b new_branch_name will turn the detached head state into a new branch.
+	-it will then tell you where the head is. 
+	
+Reflect: How do diagrams help you understand the branch structure?
+	-By visualizing the edits as a graph it makes it easy to see where you are and what you can reach
+	
+Merging two branches:
+	-if a line appears in both branches then it is automatically included in the merge
+	-for lines that are not in both we look backwards: If it is in the original but not in one branch it is deleted
+		- if it is not in the original and in one branch it is kept
+	the merge stores information about both of its parents. It will store all commit parents in two branches, sorted by time.
+	git merge <b1> <b2> merges both branches.
+	
+	-git show: shows difference between commit and parent
+	-can delete branch by doing git branch -d coins (after merging if you no longer need it).
+	
+Refect: Automatic vs manual merging: automatic merging weighs all users the same. 

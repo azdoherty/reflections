@@ -13,3 +13,16 @@ Reflect: Forks, Clones, and Branches:
 	in github
 	Clone: A clone is created by pulling a repository from github
 	Branch: A branch is created locally only when you decide your program needs to go in a different direction
+	
+Merging local and remote branches:
+	-Use git fetch to retain local and remote repository changes, then compare and review changes in origin
+	and master. 
+	-use git merge to merge when happy. (git pull accomplishes these two steps in 1 command)
+	
+Fast-forward merges:
+	-merge 2 commits with one reachable by the other, then it just adds the commits
+	
+Reflect: Local copies of remote branches:
+	-The benefit of having a loast known state of the remote store locally is to be able to work offline,
+	or have multiple people working on the same files in parallel without continually committing to the same 
+	branch.
